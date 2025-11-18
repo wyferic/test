@@ -1,8 +1,6 @@
-// import type { NextConfig } from "next";
-
 const nextConfig = {
-  /* config options here */
-  output: "export",  // <=== enables static exports
+  basePath: "/test",
+  output: "export", 
   reactStrictMode: true,
 };
 
